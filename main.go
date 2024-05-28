@@ -5,9 +5,9 @@ import (
 	"log/slog"
 	"os"
 
-	"github.com/alesr/cacheaside/internal/repository/cache/memcache"
 	"github.com/alesr/cacheaside/internal/repository/memdb"
 	"github.com/alesr/cacheaside/internal/service"
+	"github.com/alesr/cacheaside/internal/service/cache/memcache"
 )
 
 func main() {
